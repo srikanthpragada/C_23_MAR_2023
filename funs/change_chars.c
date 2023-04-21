@@ -1,5 +1,5 @@
-// Pass an array
-// Date : 20-APR-2023
+// Update char with new char
+// Date : 210-APR-2023
 
 #include <stdio.h>
 
@@ -16,7 +16,7 @@ void update_char(char st[], char source, char target)
 
 void main()
 {
-   char st[20];
+   char st[] = "abc,xyz,pqr,def";
 
    update_char(st, ',', '-');
    puts(st);
