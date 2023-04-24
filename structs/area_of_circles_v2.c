@@ -15,7 +15,7 @@ float calculate_area(struct circle c)
 
 struct circle max(struct circle c1, struct circle c2)
 {
-   if (calculate_area(c1)   > calculate_area(c2))
+   if (calculate_area(c1) > calculate_area(c2))
       return c1;
    else
       return c2;
